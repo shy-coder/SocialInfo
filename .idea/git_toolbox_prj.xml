@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GitToolBoxProjectSettings">
+    <option name="autoFetchExclusionConfigs">
+      <list>
+        <AutoFetchExclusionConfig>
+          <option name="excludedRemotes">
+            <list>
+              <RemoteConfig>
+                <option name="name" value="origin" />
+              </RemoteConfig>
+            </list>
+          </option>
+          <option name="repositoryRootPath" value="file://$PROJECT_DIR$" />
+        </AutoFetchExclusionConfig>
+      </list>
+    </option>
+  </component>
+</project>
