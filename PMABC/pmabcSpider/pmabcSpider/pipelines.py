@@ -11,7 +11,7 @@ class PmabcspiderPipeline:
         insert_sql = """insert into njjyfy(article_title,article_content,article_imgs,article_publish_time,article_href) VALUES (%s,%s,%s,%s,%s)"""
         self.cursor.execute(
             insert_sql,
-            (item['title'], item['content'], item['img'], item['publish_time'], item["href"])
+            (item['info_title'], item['info_content'], item['info_img'], item['info_publish_time'], item["info_href"])
         )
         self.connect.commit()
         return item
